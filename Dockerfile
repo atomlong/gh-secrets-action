@@ -37,4 +37,4 @@ COPY ./entrypoint.sh ./
 COPY --from=build /app/ghsa ./ghsa
 
 ENTRYPOINT ["/sbin/tini", "--"]
-CMD ["./entrypoint.sh"]
+CMD ["/app/entrypoint.sh"]
