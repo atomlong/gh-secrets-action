@@ -2,11 +2,11 @@
 
 Github Action that let's you update your repositories secrets.
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kornicameister/gh-secrets-action/Docker)
-![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/kornicameister/gh-secrets-action)
-![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/kornicameister/gh-secrets-action/latest/master)
-[![License](https://img.shields.io/github/license/kornicameister/gh-secrets-action.svg)](https://github.com/kornicameister/gh-secrets-action/blob/master/LICENSE)
-[![time tracker](https://wakatime.com/badge/github/kornicameister/gh-secrets-action.svg)](https://wakatime.com/badge/github/kornicameister/gh-secrets-action)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/atomlong/gh-secrets-action/Docker)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/atomlong/gh-secrets-action)
+![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/atomlong/gh-secrets-action/latest/master)
+[![License](https://img.shields.io/github/license/atomlong/gh-secrets-action.svg)](https://github.com/atomlong/gh-secrets-action/blob/master/LICENSE)
+[![time tracker](https://wakatime.com/badge/github/atomlong/gh-secrets-action.svg)](https://wakatime.com/badge/github/atomlong/gh-secrets-action)
 
 ## Rationale
 
@@ -22,9 +22,9 @@ Now imagine that you can deal with that declaratively using Github Action ;-).
 
 ```yml
 - name: Deploy dynamic secrets
-  uses: kornicameister/gh-secrets-action@master
+  uses: atomlong/gh-secrets-action@master
   with:
-    repository: kornicameister/gh-secrets-action
+    repository: atomlong/gh-secrets-action
     token: ${{ secrets.GH_PA_TOKEN }}
     secrets: |
       verySecretPassword: secret
