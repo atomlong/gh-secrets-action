@@ -5,9 +5,9 @@ import setuptools
 __version__ = '0.0.0'
 __title__ = 'gh-secrets-action'
 __author__ = 'Tomasz Trębski'
-__author_email__ = 'kornicameister@gmail.com'
+__author_email__ = 'atom.long@hotmail.com'
 __maintainer__ = __author__
-__url__ = 'https://github.com/kornicameister/gh-secrets-action'
+__url__ = 'https://github.com/atomlong/gh-secrets-action'
 __min_python__ = (3, 8)
 
 if sys.version_info < __min_python__:
