@@ -24,16 +24,16 @@ jobs:
         if: github.event_name == 'pull_request' || github.event_name == 'push'
         uses: ./
         with:
-          repository: kornicameister/gh-secrets-action
+          repository: atomlong/gh-secrets-action
           token: ${{ secrets.GH_PA_TOKEN }}
           secrets: |
             a: 1
             b: 2
       - name: Test @master
         if: github.event_name == 'schedule'
-        uses: kornicameister/gh-secrets-action@master
+        uses: atomlong/gh-secrets-action@master
         with:
-          repository: kornicameister/gh-secrets-action
+          repository: atomlong/gh-secrets-action
           token: ${{ secrets.GH_PA_TOKEN }}
           secrets: |
             e: 5

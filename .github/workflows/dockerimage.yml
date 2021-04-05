@@ -10,7 +10,7 @@ name: Docker
     types: [published]
 
 env:
-  IMAGE_NAME: kornicameister/gh-secrets-action
+  IMAGE_NAME: atomlong/gh-secrets-action
   DOCKER_BUILDKIT: 1
 
 jobs:
