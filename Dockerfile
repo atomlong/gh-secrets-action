@@ -1,4 +1,4 @@
-FROM python:3.9.3-alpine3.13 AS base
+FROM python:3.9.4-alpine3.13 AS base
 
 RUN pip install --upgrade pip==21.0.1
 COPY python/ghsa ./ghsa
